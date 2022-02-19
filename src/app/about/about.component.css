@@ -1,0 +1,47 @@
+
+.container{
+    height: auto;
+    background-image: url(../../assets/images/bg.jpg);
+    background-size: 100% 100%;
+}
+h1{
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 50px;
+}
+.row .pho1{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 50%;
+    height: 300px;
+    }
+    .row .pho2{
+        position: absolute;
+        top: 200px;
+        left:60px;
+        width: 50%;
+        height: 300px;
+        }
+        .row .pho3{
+            position: absolute;
+            top: 430px;
+            right: 30px;
+            width: 50%;
+            height: 300px;
+            }
+            .myteam{
+                display: flex;
+                justify-content: space-around;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+                font-weight: 150;
+                height: 20%;
+                margin-bottom: 34px;
+                color: white;
+            }
+            .team{
+                width: 200px;
+                height: auto;
+            }
